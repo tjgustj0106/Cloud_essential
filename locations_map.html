@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d0a3d4c56190792166d16033b63eb284 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d0a3d4c56190792166d16033b63eb284" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d0a3d4c56190792166d16033b63eb284 = L.map(
+                "map_d0a3d4c56190792166d16033b63eb284",
+                {
+                    center: [36.5, 127.8],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 3,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0029b7f70c52856ffc87b77f2c1d15a9 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_0029b7f70c52856ffc87b77f2c1d15a9.addTo(map_d0a3d4c56190792166d16033b63eb284);
+        
+    
+            var marker_a65293def3f8946a10a39bf3e08c2949 = L.marker(
+                [35.8713, 128.6018],
+                {
+}
+            ).addTo(map_d0a3d4c56190792166d16033b63eb284);
+        
+    
+        var popup_a54eb7891805b37ded9dd196f73a5b5b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f36f848823d149388826822bfbab79c9 = $(`<div id="html_f36f848823d149388826822bfbab79c9" style="width: 100.0%; height: 100.0%;">대구</div>`)[0];
+                popup_a54eb7891805b37ded9dd196f73a5b5b.setContent(html_f36f848823d149388826822bfbab79c9);
+            
+        
+
+        marker_a65293def3f8946a10a39bf3e08c2949.bindPopup(popup_a54eb7891805b37ded9dd196f73a5b5b)
+        ;
+
+        
+    
+    
+            var marker_0b403f1a25b468ebabcc39e4d8ccb241 = L.marker(
+                [40.7127281, -74.0060152],
+                {
+}
+            ).addTo(map_d0a3d4c56190792166d16033b63eb284);
+        
+    
+        var popup_cba334d5a4b3068cb98611a5175f486d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_42565336cc1ca1bb3d38a58016557400 = $(`<div id="html_42565336cc1ca1bb3d38a58016557400" style="width: 100.0%; height: 100.0%;">미국 뉴욕</div>`)[0];
+                popup_cba334d5a4b3068cb98611a5175f486d.setContent(html_42565336cc1ca1bb3d38a58016557400);
+            
+        
+
+        marker_0b403f1a25b468ebabcc39e4d8ccb241.bindPopup(popup_cba334d5a4b3068cb98611a5175f486d)
+        ;
+
+        
+    
+    
+            var marker_73522bc929c257d7260fa137e68126d7 = L.marker(
+                [35.1799528, 129.0752365],
+                {
+}
+            ).addTo(map_d0a3d4c56190792166d16033b63eb284);
+        
+    
+        var popup_df45f50fab8171afa6fed69d55ebe8a7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4535bb081bc65bd585f813e933a5fbaf = $(`<div id="html_4535bb081bc65bd585f813e933a5fbaf" style="width: 100.0%; height: 100.0%;">부산</div>`)[0];
+                popup_df45f50fab8171afa6fed69d55ebe8a7.setContent(html_4535bb081bc65bd585f813e933a5fbaf);
+            
+        
+
+        marker_73522bc929c257d7260fa137e68126d7.bindPopup(popup_df45f50fab8171afa6fed69d55ebe8a7)
+        ;
+
+        
+    
+    
+            var marker_9e2c2e49b4305dc2a78dd1767b933299 = L.marker(
+                [37.5177, 127.0473],
+                {
+}
+            ).addTo(map_d0a3d4c56190792166d16033b63eb284);
+        
+    
+        var popup_00023de4da393eb5f90ee13780de993c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8de83b16bf7db73bbf70f3a9adb8fd22 = $(`<div id="html_8de83b16bf7db73bbf70f3a9adb8fd22" style="width: 100.0%; height: 100.0%;">서울 강남구</div>`)[0];
+                popup_00023de4da393eb5f90ee13780de993c.setContent(html_8de83b16bf7db73bbf70f3a9adb8fd22);
+            
+        
+
+        marker_9e2c2e49b4305dc2a78dd1767b933299.bindPopup(popup_00023de4da393eb5f90ee13780de993c)
+        ;
+
+        
+    
+    
+            var marker_34ef0aa1fcd249f84fc7f9c846f19bc4 = L.marker(
+                [35.6812546, 139.766706],
+                {
+}
+            ).addTo(map_d0a3d4c56190792166d16033b63eb284);
+        
+    
+        var popup_b91312e66532bf458bfceb8c7a06a85d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5f8dd9b2d26c99f2db529d8e7fc92425 = $(`<div id="html_5f8dd9b2d26c99f2db529d8e7fc92425" style="width: 100.0%; height: 100.0%;">일본 도쿄</div>`)[0];
+                popup_b91312e66532bf458bfceb8c7a06a85d.setContent(html_5f8dd9b2d26c99f2db529d8e7fc92425);
+            
+        
+
+        marker_34ef0aa1fcd249f84fc7f9c846f19bc4.bindPopup(popup_b91312e66532bf458bfceb8c7a06a85d)
+        ;
+
+        
+    
+</script>
+</html>
