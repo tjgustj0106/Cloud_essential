@@ -1,0 +1,79 @@
+[
+  {
+    "doc_type": "EXPENSE",
+    "file": "lab04_receipt.jpg",
+    "extracted": {
+      "type": "EXPENSE",
+      "data": {
+        "INVOICE_RECEIPT_ID": "35678-9",
+        "TOTAL": "2100.00"
+      },
+      "line_items": [
+        {
+          "ITEM": "Furniture (Desks and\nChairs)",
+          "OTHER": "Merchant One",
+          "PRICE": "1500.00",
+          "EXPENSE_ROW": "Furniture (Desks and Office Supplies 5/10/1019 Merchant One 1500.00\nChairs)"
+        },
+        {
+          "ITEM": "Team Lunch",
+          "OTHER": "Merchant Two",
+          "PRICE": "100.00",
+          "EXPENSE_ROW": "Team Lunch Food 5/11/2019 Merchant Two 100.00"
+        },
+        {
+          "ITEM": "Team Dinner",
+          "OTHER": "Merchant Three",
+          "PRICE": "300.00",
+          "EXPENSE_ROW": "Team Dinner Food 5/12/2019 Merchant Three 300.00"
+        },
+        {
+          "ITEM": "Laptop",
+          "OTHER": "Merchant Three",
+          "PRICE": "200.00",
+          "EXPENSE_ROW": "Laptop Office Supplies 5/13/2019 Merchant Three 200.00"
+        }
+      ]
+    },
+    "processed_at": "2026-07-01T07:15:14.251761"
+  },
+  {
+    "doc_type": "GENERAL",
+    "file": "lab05_id.jpg",
+    "extracted": {
+      "type": "GENERAL",
+      "forms": {
+        "Other": "",
+        "mm dd yy": "/ /",
+        "Patient number (medical record or IIS record number)": "012345abcd67",
+        "Last Name": "Mary",
+        "MI": "M",
+        "Date of Birth": "1/6/58",
+        "First Name": "Major",
+        "Pfizer": "2/8/2021"
+      },
+      "queries": {
+        "DATE": "1/6/58",
+        "NAME": "Major"
+      }
+    },
+    "processed_at": "2026-07-01T07:15:17.265436"
+  },
+  {
+    "doc_type": "GENERAL",
+    "file": "lab02_form.jpg",
+    "extracted": {
+      "type": "GENERAL",
+      "forms": {
+        "Full Name:": "Jane Doe",
+        "Home Address:": "123 Any Street, Any Town, USA",
+        "Mailing Address:": "same as home address",
+        "Phone Number:": "555-0100"
+      },
+      "queries": {
+        "NAME": "Jane Doe"
+      }
+    },
+    "processed_at": "2026-07-01T07:15:19.874202"
+  }
+]
